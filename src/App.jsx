@@ -29,6 +29,7 @@ import RegistrationDetails from "./pages/Admin-Panel/RegistrationDetails";
 import PadGeneration from "./pages/Admin-Panel/PadGeneration";
 import PadHistory from "./pages/Admin-Panel/PadHistory";
 import InvoiceSend from "./pages/Admin-Panel/CreateInvoice";
+import InvoiceHistory from "./pages/Admin-Panel/InvoiceHistory";
 
 const App = () => {
   const location = useLocation();
@@ -78,6 +79,7 @@ const App = () => {
           <Route path="pad-generation" element={<PadGeneration />} />
           <Route path="pad-history" element={<PadHistory />} />
           <Route path="create-invoice" element={<InvoiceSend />} />
+          <Route path="invoice-history" element={<InvoiceHistory />} />
           <Route
             path="registration-details"
             element={<RegistrationDetails />}
